@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import Lend from './components/Lend.jsx'
 import Borrow from './components/Borrow.jsx'
-import seeddata from '../../../data.json'
+import seeddata from '../../../seed.js'
 
 export default class Index extends Component {
     constructor(props){

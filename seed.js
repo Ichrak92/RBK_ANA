@@ -10,8 +10,8 @@
  */
 
 const data = require("./data.json");
-const db = require("../db/indexdb.js");
-const Cat = require("../db/Cat.js");
+const db = require("./db/db.js");
+const Cat = require("./db/Cat.js");
 
 Cat.insertMany(data, function (err, result) {
   if (err) throw err;
